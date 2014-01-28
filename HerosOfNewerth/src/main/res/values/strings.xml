@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Heros Of Newerth Game Quiz</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="hero_quiz">Hero quiz</string>
+    <string name="skill_quiz">Skill quiz</string>
+
+    <string name="points">Points: </string>
+    <string name="guesses_left">Guesses left: </string>
+    <string name="time">Time: </string>
+    <string name="score">Score: </string>
+    <string name="scores">Scores</string>
+
+    <string name="game_over">Game Over!</string>
+    <string name="game_win">You Win!</string>
+
+    <string name="chronometer_initial_format">%s</string>
+
+    <string name="gameModeName1">Single Random</string>
+    <string name="gameModeName2">Single Random Hardcore</string>
+    <string name="gameModeName3">Death Match</string>
+    <string name="gameModeName4">Death Match Hardcore</string>
+    <string name="gameModeExplanation1">You have 3 chances, each hero is randomed only once!</string>
+    <string name="gameModeExplanation2">Hardcore mode, you have only 1 chance, each hero is randomed only once!</string>
+    <string name="gameModeExplanation3">You have 3 chances, game never end!</string>
+    <string name="gameModeExplanation4">Hardcore mode, you have only 1 chance, game never ends!</string>
+
+</resources>

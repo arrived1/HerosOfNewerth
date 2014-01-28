@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="points">Punkty: </string>
+    <string name="guesses_left">Szanse: </string>
+    <string name="time">Czas: </string>
+    <string name="score">Wynik: </string>
+    <string name="scores">Wyniki</string>
+
+    <string name="game_over">Przegrałeś!</string>
+    <string name="game_win">Wygraeś!</string>
+
+    <string name="chronometer_initial_format">%s</string>
+
+    <string name="gameModeName1">Single Random</string>
+    <string name="gameModeName2">Single Random Hardcore</string>
+    <string name="gameModeName3">Death Match</string>
+    <string name="gameModeName4">Death Match Hardcore</string>
+    <string name="gameModeExplanation1">Masz 3 szanse, każdy bohater jest losowany jeden raz!</string>
+    <string name="gameModeExplanation2">Hardcore, masz tylko 1 szansę, każdy bohater jest losowany jeden raz!</string>
+    <string name="gameModeExplanation3">Masz 3 szanse, gra się nigdy nie kończy!</string>
+    <string name="gameModeExplanation4">Hardcore, masz tylko 1 szansę, gra się nigdy nie kończy!</string>
+
+</resources>

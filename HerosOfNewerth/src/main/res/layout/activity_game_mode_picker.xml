@@ -1,0 +1,138 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/group"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" >
+
+        <LinearLayout
+            android:id="@+id/group1"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" >
+
+            <Button
+                android:id="@+id/ModePick1"
+                style="@style/btnStylesorbus"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:text="@string/gameModeName1" />
+
+            <TextView
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:textSize="25px"
+                android:layout_marginTop="5dp"
+                android:text="@string/gameModeExplanation1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/group2"
+            android:orientation="vertical"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/group1"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp" >
+
+            <Button
+                android:id="@+id/ModePick2"
+                style="@style/btnStylesorbus"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:text="@string/gameModeName2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:textSize="25px"
+                android:layout_marginTop="5dp"
+                android:text="@string/gameModeExplanation2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/group3"
+            android:orientation="vertical"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/group2"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp" >
+
+            <Button
+                android:id="@+id/ModePick3"
+                style="@style/btnStylesorbus"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:text="@string/gameModeName3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:textSize="25px"
+                android:layout_marginTop="5dp"
+                android:text="@string/gameModeExplanation3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/group4"
+            android:orientation="vertical"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/group3"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp" >
+
+            <Button
+                android:id="@+id/ModePick4"
+                style="@style/btnStylesorbus"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:text="@string/gameModeName4" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:textSize="25px"
+                android:layout_marginTop="5dp"
+                android:text="@string/gameModeExplanation4" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
